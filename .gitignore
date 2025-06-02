@@ -2,4 +2,5 @@ Dataset
 __pycache__
 *.pth
 *.csv
-*.ipynb
+test_data.ipynb
+test_model.ipynb

@@ -16,7 +16,7 @@
 </div>
 
 ## Description
-This project was developed for a Kaggle competition on medical image segmentation. It uses a U-Net model implemented in model.py, with custom loss functions in loss.py and a data pipeline defined in dataset.py. The training process is handled in train.py, and main.py serves as the entry point for training and testing
+This project was developed for a Kaggle competition on medical image segmentation. It uses a U-Net model implemented in [model.py](model.py), with custom loss functions in [loss.py](loss.py) and a data pipeline defined in [dataset.py](dataset.py). The training process is handled in [train.py](train.py), and [main.py](main.py) serves as the entry point for training and testing. Detail trainning can be found in [image-processing.ipynb](image-processing.ipynb). Additionally, I replaced the decoder of the U-Net model with a ResNet to enhance feature extraction. This modification is implemented in [image-processing.ipynb](image-processing.ipynb).
 
 ## Data
 The dataset is divided into Train and Test sets.
@@ -36,4 +36,6 @@ The dataset is divided into Train and Test sets.
 ## Result
 - Best validation loss is approximately 0.367 which achieved at epoch 23
 ![alt text](image.png)
-- The final score on Kaggle is 0.8658 / 1 upon submission.
+- The final score on Kaggle is 0.8658 / 1 upon submission with .
+- The Kaggle submission score with the original U-Net model was 0.8658 / 1
+- The Kaggle submission score with the U-Net model using a ResNet decoder was 0.89 / 1
