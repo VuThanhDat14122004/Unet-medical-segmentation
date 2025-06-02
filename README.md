@@ -34,8 +34,11 @@ The dataset is divided into Train and Test sets.
 - A learning rate scheduler is used, which reduces the learning rate by a factor of 0.5 if the validation loss does not improve for 3 consecutive epochs
 - Early stopping is applied to halt training if the validation loss does not improve for 10 consecutive epochs
 ## Result
-- Best validation loss is approximately 0.367 which achieved at epoch 23
+- Best validation loss is approximately 0.367 which achieved at epoch 23 when using original U-net model
 ![alt text](image.png)
+
+- Best validation loss is approximately 0.37 which achieved at epoch 7 when using Unet with Resnet decoder
+![alt text](image-1.png)
 - The final score on Kaggle is 0.8658 / 1 upon submission with .
 - The Kaggle submission score with the original U-Net model was 0.8658 / 1
 - The Kaggle submission score with the U-Net model using a ResNet decoder was 0.89 / 1
