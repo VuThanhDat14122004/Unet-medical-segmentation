@@ -41,4 +41,4 @@ The dataset is divided into Train and Test sets.
 ![alt text](image-2.png)
 
 - The Kaggle submission score with the original U-Net model was 0.8658 / 1
-- The Kaggle submission score with the U-Net model using a ResNet decoder was 0.89 / 1
+- The Kaggle submission score with the U-Net model using a ResNet decoder was 0.93 / 1
