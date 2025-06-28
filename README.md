@@ -16,7 +16,7 @@
 </div>
 
 ## Description
-This project was developed for a Kaggle competition on medical image segmentation. It uses a U-Net model implemented in [model.py](model.py), with custom loss functions in [loss.py](loss.py) and a data pipeline defined in [dataset.py](dataset.py). The training process is handled in [train.py](train.py), and [main.py](main.py) serves as the entry point for training and testing. Detail trainning can be found in [image-processing.ipynb](image-processing.ipynb). Additionally, I replaced the encoder of the U-Net model with a ResNet to enhance feature extraction. This modification is implemented in [image-processing.ipynb](image-processing.ipynb).
+This project was developed for a [Kaggle competition](https://www.kaggle.com/competitions/2425-ii-ait-3002-medical-image-segmentation) on medical image segmentation. It uses a U-Net model implemented in [model.py](model.py), with custom loss functions in [loss.py](loss.py) and a data pipeline defined in [dataset.py](dataset.py). The training process is handled in [train.py](train.py), and [main.py](main.py) serves as the entry point for training and testing. Detail trainning can be found in [image-processing.ipynb](image-processing.ipynb). Additionally, I replaced the encoder of the U-Net model with a ResNet to enhance feature extraction. This modification is implemented in [image-processing.ipynb](image-processing.ipynb).
 
 ## Data
 The dataset is divided into Train and Test sets.
